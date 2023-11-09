@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  version: '1.0.0'
+  title: 'Phone Trigger Webhook'
+  description: 'Phone Trigger Webhook'
+
+servers:
+  - description: Site
+    url: /phone-trigger-webhook/api/v1
+
+tags:
+  - name: api
+    description: Main API
+    
+security:
+  - basicAuth: []
+
+paths:
+  /trigger:
+    get:
+      tags:
+        - api
+      $ref: 'paths/callTrigger.json'
+
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic

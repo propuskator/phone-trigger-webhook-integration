@@ -1,0 +1,10 @@
+{
+    "name": "phone_in",
+    "in": "query",
+    "description": "Phone number called to",
+    "schema": {
+        "type": "string"
+    },
+    "format": "date-time",
+    "required": true
+}

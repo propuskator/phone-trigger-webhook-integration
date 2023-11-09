@@ -1,0 +1,6 @@
+FROM node:14-alpine
+WORKDIR /app
+
+RUN apk --no-cache add bash git vim
+
+ENTRYPOINT npm install && npm run nodemon

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "example": "forbidden"
+        },
+        "message": {
+            "type": "string",
+            "example": "Permission denied"
+        },
+        "errors": {
+            "type": "array",
+            "example": []
+        }
+    }
+}

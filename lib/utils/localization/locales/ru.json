@@ -1,0 +1,228 @@
+{
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "plural_forms": "nplurals=2; plural=(n != 1);",
+                "lang": "ru"
+            },
+            "Invalid login or password": [
+                "Неверный логин или пароль"
+            ],
+            "Action not allowed for status cancelled": [
+                "Действие запрещено для статуса 'cancelled'"
+            ],
+            "Action not allowed for status draft": [
+                "Действие запрещено для статуса 'draft'"
+            ],
+            "Action not allowed for status pending": [
+                "Действие запрещено для статуса 'pending'"
+            ],
+            "Action not allowed for status production": [
+                "Действие запрещено для статуса 'production'"
+            ],
+            "Already running another firmware_build. Please wait till it ends": [
+                "Уже запущен другой билд прошивки. Подождите, пока он завершится"
+            ],
+            "CSRF token invalid": [
+                "Невалидный CSRF токен"
+            ],
+            "Current password does not match": [
+                "Текущий пароль не совпадает"
+            ],
+            "Database error": [
+                "Ошибка базы данных"
+            ],
+            "Entity is inclomplete: some fields still required": [
+                "Сущность не заполнена: необходимы еще некоторые поля"
+            ],
+            "Firmware does not exist": [
+                "Прошивки не существует"
+            ],
+            "Layout does not exist": [
+                "Макет не существует"
+            ],
+            "No such user": [
+                "Нет такого пользователя"
+            ],
+            "Permission denied": [
+                "В доступе отказано"
+            ],
+            "Product is inclomplete: some fields still required": [
+                "Товар не заполнен: необходимы еще некоторые поля"
+            ],
+            "Product require firmware_id to be complete": [
+                "Продукту необходим идентификатор прошивки, чтобы быть завершенным"
+            ],
+            "Product require layout_id to be complete": [
+                "Продукту необходим идентификатор макета, чтобы быть завершенным"
+            ],
+            "Required firmware config to perform this action": [
+                "Продукту необходима конфигурация прошивки, чтобы быть завершенным"
+            ],
+            "User already exists": [
+                "Пользователь уже существует"
+            ],
+            "User is blocked": [
+                "Пользователь заблокирован"
+            ],
+            "User with this login already exists": [
+                "Пользователь с таким логином уже существует"
+            ],
+            "Vendor does not exist": [
+                "Поставщик не существует"
+            ],
+            "Wrong content-type": [
+                "Неверный тип содержимого"
+            ],
+            "Wrong field": [
+                "Неправильное поле"
+            ],
+            "Wrong login": [
+                "Неправильный логин"
+            ],
+            "Wrong product frimware": [
+                "Неправильное программное обеспечение продукта"
+            ],
+            "String is too short": [
+                "Строка слишком короткая"
+            ],
+            "String is too long": [
+                "Строка слишком длинная"
+            ],
+            "Value is required": [
+                "Требуется значение"
+            ],
+            "Value should be integer": [
+                "Значение должно быть целым"
+            ],
+            "Value should be positive integer": [
+                "Значение должно быть положительным целым числом"
+            ],
+            "Value should be positive decimal": [
+                "Значение должно быть положительным десятичным"
+            ],
+            "Value not allowed": [
+                "Значение не допускается"
+            ],
+            "Value should be boolean": [
+                "Значение должно быть логическим"
+            ],
+            "Value is too low": [
+                "Значение слишком низкое"
+            ],
+            "Value is too high": [
+                "Стоимость слишком высока"
+            ],
+            "Value can not be empty": [
+                "Значение не может быть пустым"
+            ],
+            "Value is not decimal": [
+                "Значение не десятичное"
+            ],
+            "Fraction part is too long": [
+                "Дробная часть слишком длинная"
+            ],
+            "Wrong date format": [
+                "Неверный формат даты"
+            ],
+            "No session for user": [
+                "Нет сеанса для пользователя"
+            ],
+            "Schema should be valid JSON string": [
+                "Схема должна быть валидной строкой JSON"
+            ],
+            "Version should be string": [
+                "Версия должна быть строковой"
+            ],
+            "Version should be ade with semver pattern: dot separated major.minor.patch": [
+                "Версия должна быть оформлена с использованием шаблона semver: разделенные точкой major.minor.patch"
+            ],
+            "Supported types for release are patch, minor and major": [
+                "Поддерживаемые типы для выпуска: исправления, второстепенные и основные"
+            ],
+            "Can not sort by this field": [
+                "Невозможно сортировать по этому полю"
+            ],
+            "Order should be ASC or DESC": [
+                "Порядок должен быть ASC или DESC"
+            ],
+            "Limit should be positive integer": [
+                "Предел должен быть положительным целым числом"
+            ],
+            "Offset should be non negative integer": [
+                "Смещение должно быть неотрицательным целым числом"
+            ],
+            "Should be image file": [
+                "Должен быть файл изображения"
+            ],
+            "Email is required": [
+                "Требуется электронная почта"
+            ],
+            "Email is invalid": [
+                "Электронная почта недействительна"
+            ],
+            "Password is required": [
+                "Необходим пароль"
+            ],
+            "Password retype is required": [
+                "Требуется повторный ввод пароля"
+            ],
+            "Passwords should be equal": [
+                "Пароли должны совпадать"
+            ],
+            "Type should be vendor or admin": [
+                "Тип должен быть поставщиком или администратором"
+            ],
+            "Password must contain at least 6 symbols": [
+                "Пароль должен содержать минимум 6 символов"
+            ],
+            "Invalid token": [
+                "Невалидный токен"
+            ],
+            "SMTP Server error": [
+                "Ошыбка почтового сервера"
+            ],
+            "Token already used": [
+                "Токен уже был использован"
+            ],
+            "Token expired": [
+                "Время жизни токена истекло"
+            ],
+            "Wrong token": [
+                "Неверный токен"
+            ],
+            "email not found": [
+                "email не найден"
+            ],
+            "Email address wrong format": [
+                "Неправильный формат электронной почты"
+            ],
+            "Invalid field": [
+                "Невалидное поле"
+            ],
+            "Invite code does not exist": [
+                "Такого пригласительного кода не существует"
+            ],
+            "MobileUser does not exist": [
+                "Пользователь не существует"
+            ],
+            "Wrong invite code": [
+                "Неверный пригласительный код"
+            ],
+            "Missing \"token\"": [
+                "Не зватает токена"
+            ],
+            "This action allowed only for products with custom firmware": [
+                "Это действие разрешено только для продуктов с кастомной прошивкой"
+            ],
+            "Wrong file type": [
+                "Непревильный тип файла"
+            ],
+            "File name is too long": [
+                "Слышком длянное название файла"
+            ]
+        }
+    }
+}

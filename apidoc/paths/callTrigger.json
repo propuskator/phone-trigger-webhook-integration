@@ -1,0 +1,44 @@
+{
+    "tags": [ "api" ],
+    "summary": "Call Trigger",
+    "parameters": [
+        {
+            "$ref": "../components/parameters/phone_to.json"
+        },
+        {
+            "$ref": "../components/parameters/phone_user.json"
+        }
+    ],
+    "responses": {
+        "200": {
+            "description": "Success",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "$ref": "../components/responses/success.json"
+                    }
+                }
+            }
+        },
+        "422": {
+            "description": "Validation error",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "$ref": "../components/responses/error_validation.json"
+                    }
+                }
+            }
+        },
+        "403": {
+            "description": "Forbidden error",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "$ref": "../components/responses/error_forbidden.json"
+                    }
+                }
+            }
+        }
+    }
+}

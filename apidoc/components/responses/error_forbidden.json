@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "example": "validation"
+        },
+        "message": {
+            "type": "string",
+            "example": "No session for user"
+        },
+        "errors": {
+            "type": "array",
+            "example": [
+                {
+                    "message": "Value is required",
+                    "uri": "#/from"
+                },
+                {
+                    "message": "Value is required",
+                    "uri": "#/to"
+                }
+            ]
+        }
+    }
+}
